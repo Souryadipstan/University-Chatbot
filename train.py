@@ -8,9 +8,6 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import pickle
-import time
-
-from tensorflow.python.keras.layers.core import Dropout
 
 with open('/Users/sourya/Desktop/Chatbot project/intents.json') as file:
     data = json.load(file)
