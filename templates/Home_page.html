@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+	<meta charset = "UTF - 8">
+	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+	<title>Chatbot</title>
+</head>
+<body>
+	<nav class = "navlist">
+		<ul>
+			<li><h4></h4></li>
+			<li><a href = "">Home</a></li>
+			<li><a href = "">Admission</a></li>
+			<li><a href = "">Courses</a></li>
+			<li><a href = "">Faculties</a></li>
+			<li><a href = "">Accomodation</a></li>
+			<li><a href = "">Fees</a></li>
+			<li><a href = "">About</a></li>
+		</ul>
+	</nav>
+	
+	<div class = "main-box" >
+		<a href = ""><img src="{{ url_for('static', filename='images/logo.png')}}" alt = ""></a>
+		<h1>University of Kalyani</h1>
+		<p>NAAC Accredited "A" Grade</p>
+		<button>ENROLL NOW</button>
+	</div>
+	<div class = "container">
+		<h2>FACILITIES</h2>
+		<div class = "row">
+			<div class = "column">
+				<a href = ""><img src="{{ url_for('static', filename='images/campus.jpg')}}" alt = ""></a>
+				<a href = "">Campus</a>
+			</div>
+			<div class = "column">
+					<a href = ""><img src="{{ url_for('static', filename='images/lab.jpg')}}" alt = ""></a>
+					<a href = "">Laboratory</a>
+			</div>
+			<div class = "column">
+					<a href = ""><img src="{{ url_for('static', filename='images/library.jpg')}}" alt = ""></a>
+					<a href = "">Library</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class = "page-footer">
+		<p>&copy 2022 Souryadip Das & Rituparna Kundu</p>
+	</div>
+	
+	<div class = "container">
+		<div class = "chatbox">
+			<div class = "chatbox__support">
+				<div class = "chatbox__header">
+					<div class = "chatbox_image--header">
+						<img src = "{{ url_for('static', filename='images/Webp.net-resizeimage (1).png')}}" alt = "chatbot_image">
+					</div>
+					<div class = "chatbot_content--header">
+						<h4 class = "chatbox_heading--header">KU Bot</h4>
+						<p class = "chatbox_description--header">Hi there, how can I help you?</p>
+					</div>
+				</div>
+				<div class = "chatbox__messages">
+					<div></div>
+				</div>
+				<div class = "chatbox__footer">
+					<input type = "text" placeholder = "Write your query...">
+					<button class = "chatbox__send--footer send__button">Send</button>
+				</div>
+			</div>
+			<div class = "chatbox__button">
+				<button><img src = "{{ url_for('static', filename='images/chat (1).png')}}"></button>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+        $SCRIPT_ROOT = {{request.script_root|tojson}};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+	
+	</body>
+</html>
+					
