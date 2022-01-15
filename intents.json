@@ -1,0 +1,83 @@
+{"intents":
+
+    [
+    {"tag": "greeting",
+    "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+    "responses": ["Hello, thanks for asking","Good to see you again","Hi there, how can I help?"],
+    "context": [""]
+    },
+    
+
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later","Goodbye","Nice chatting to you, bye","Till next time"],
+    "responses": ["See you!", "Have a nice day","Bye! Come back again soon."],
+    "context": [""]
+    },
+
+
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful","Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context": [""]
+    },
+
+
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context": [""]
+    },
+
+
+    {"tag": "Admission_1",
+        "patterns": ["How should I apply?","How should I submit my application?","How can I submit my application?","What is the procedure of application?"],
+        "responses": ["Please refer to the Admissions section in the website for more information.","To submit an application, you can access the school's online application system. After creating a user account, you may continually login to work on your application prior to officially submitting it for admission consideration."],
+        "context": [""]
+    },
+
+    {"tag": "Admission_2",
+        "patterns": ["When should I apply?","When can I apply?","When will the applications begin?"],
+        "responses": ["Please refer to the Admissions section in the website for more information."],
+        "context": [""]
+    },
+
+    {"tag": "Exam",
+        "patterns": ["What is the selection process?", "Will there be any entrance exam?"],
+        "responses": ["Please refer to the Admissions section in the website for more information."],
+        "context": [""]
+    },
+
+    {"tag": "Scholarship",
+        "patterns": ["Is there any scholarship available?","Is there any financial aid available?","What sources of scholarship exists?"],
+        "responses": ["Please refer to the Financial Aid and Scholarships section in the website for more information.","Undergraduate students - Please refer to the Office of Admissions and Financial Aid. Graduate students - Many central and state scholarships are available . For student loan inquiry refer to the Financial Aid section."],
+        "context": [""]
+    },
+
+    {"tag": "Faculty & staff",
+        "patterns": ["Faculty","Staffs","Teachers","Professors"],
+        "responses": ["Please refer to the Faculty and Staffs section in the website for more information."],
+        "context": [""]
+    },
+
+    {"tag": "Courses",
+        "patterns": ["What are the courses offered?","Which courses are available?","Is the course available?"],
+        "responses": ["Please refer to the Courses section in the website for more information.","We offer these courses - B.Sc. Computer Science, B.Sc. Mathematics, B.Sc. Physics, B.Sc. Statistics, B.Sc. Chemistry, BCA, M.Sc. Computer Science, M.Sc. Mathematics, M.Sc. Physics, M.Sc. Statistics, M.Sc. Chemistry, M.Sc Data Science"],
+        "context": [""]
+    },
+
+    {"tag": "Fees",
+        "patterns": ["What is the fees structure?", "How much is the course fees?"],
+        "responses": ["Please refer to the Fees Structure section for more information."],
+        "context": [""]
+    },
+
+    {"tag": "Hostel",
+        "patterns": ["Are hostel available?","Is there hostel facility?","Can I stay in hostel?"],
+        "responses": ["Please refer to the Accomodation section for more information."],
+        "context": [""]
+    }
+
+    ]
+
+}
+    
