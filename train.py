@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import pickle
 
-with open('/Users/sourya/Desktop/Chatbot project/intents.json') as file:
+with open('intents.json') as file:
     data = json.load(file)
     
 training_sentences = []
