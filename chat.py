@@ -10,10 +10,10 @@ import random
 import pickle
 
 
-tokenizer = pickle.load(open("/Users/sourya/Desktop/Chatbot project/tokenizer.pkl",'rb'))
-lbl_encoder = pickle.load(open("/Users/sourya/Desktop/Chatbot project/label_encoder.pkl",'rb'))
-data = json.load(open("/Users/sourya/Desktop/Chatbot project/intents.json"))
-model = keras.models.load_model("/Users/sourya/Desktop/Chatbot project/chatbot_model.h5")
+tokenizer = pickle.load(open("tokenizer.pkl",'rb'))
+lbl_encoder = pickle.load(open("label_encoder.pkl",'rb'))
+data = json.load(open("intents.json"))
+model = keras.models.load_model("chatbot_model.h5")
 
 bot_name = "bot"
 
