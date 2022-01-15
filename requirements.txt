@@ -1,0 +1,8 @@
+Flask==2.0.2
+keras==2.6.0
+Tensorflow-cpu
+numpy
+scikit-learn
+pickleshare==0.7.5
+Flask-Cors==3.0.10
+gunicorn==20.1.0
